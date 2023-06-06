@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: rgba(241, 106, 106, 0.63);
+    color:antiquewhite;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50 px 0;
+}
+
+.cabecalho-imagem{
+    width: 18%;
+}
+
+  
+  .cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 80px;
+  }
+  
+  #tecnico {
+    background-image: linear-gradient(#b96969,#b26c6c);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tecnico-div-conteudo{
+        width: 30%;
+        font-size: 50px;
+    }
+  .tecnico-titulo{
+    
+    padding: 28px 0;
+    font-size: 50px;
+   }
+  .ilustra-curso.png {
+    height: 20px;
+    padding: 30px;
+   }
+  
+  .body {}
+    font-family, sans-serif
+    .estudante.titulo{
+        text-align: center;
+        padding: 200px;
+    } 
+    .estudante-imagem{
+        height:200px;
+
+    }
+    .estudante-icone{
+      width: 80px;
+    }
+    .estudante-div{
+      text-align: center;
+
+      padding: 50px 0;
+    }
+    #historia {
+      background-image: linear-gradient(#b96969,#b26c6c);
+      color: rgb(0, 0, 0);
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .estudante-todos{
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20%
+    }
+
+    .rodape{
+      background: #dc9494;
+      text-align: center;
+      padding: 70px 0;
+    }
+  .cabecalho-lista-item :hover{
+    color: #ddd;
+    text-decoration: underline;
+  }

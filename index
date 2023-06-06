@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site da turma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="LOGOSITE.png" alt="aqui seria a imagem">
+
+<ul class="cabecalho-lista">
+     <li class="cabecalho-lista-item"><a href="file:///home/escola/Documentos/escola.html">Escola</a>
+
+     </li>
+     <li class="cabecalho-lista-item"><a href="#estudante">Aluno</a></li>
+     <li class="cabecalho-lista-item"><a href="#tecnico">Curso Técnico</a></li>
+     
+</ul>
+
+    </header>
+    <section id="tecnico">
+    <div class="tecnico-div-conteudo">
+        <h2 class="tecnico-titulo">Tecnico em Desenvolvimento de Sistemas </h2>  
+        <p class="tecnico-um">Quando falamos na área de Ánalise e Desenvolvimento de Sistemas, estamos falando sobre o campo de conhecimento.</p>
+        <p class="tecnico-dois">responsável por analisar, desenvolver, projetar, implementar e atualizar sistemas de informação.</p>
+        <p class="tecnico-tres">Estes sistemas organizam todo tipo de informação e podem ser computadorizados ou não.</p>
+    </div>
+    <img class="tecnico-imagem" src="ilustra-curso.png" alt="ilustraçao do curso">
+   </section>
+   <section id="estudante">
+    <div class="estudante-todos"></div>
+    <h1 class="estudante.titulo">Quem somos</h1>
+    <div class="estudante-div">
+    <img class="estudante-imagem" src="ana julia.png" alt="imagem do estudante1">
+    <h2 class="estudante-nome"> Ana Julia</h2>
+    <a href="https://instagram.com/www.ana.com">
+        <img class="estudante-icone" src="instagram.png" alt="icone do instagram"></a>
+    <a href="https://api.whatsapp.com/send?phone=5544998114634">
+        <img class="estudante-icone" src="whatsapp.png" alt="icone do whatsapp"></a>
+
+    </div>
+    <div class="estudante-div">
+        (https://instagram.com/www.ana.com, https://api.whatsapp.com/send?phone=5544998114634 estudante)
+    </div>
+   </section>
+   <footer class="rodape">
+    <h1><p>Rua Bahia, 1258 Centro</p>
+        <p>Telefone-(44) 3323-1055 E-mail clomonteirolobato@seed.pr.gov.br </p></h1>
+        <link rel="stylesheet" href="reset.css">
+   </footer>
+
+</body>
+</html>
+
+
